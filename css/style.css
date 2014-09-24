@@ -1,0 +1,49 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Roboto Light", "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", Helvetica, Arial, sans-serif; 
+    margin: 1em;
+    background: #272727;
+    color: #ecf0f0;
+}
+header {
+	margin-bottom: 1em;
+}
+h1, h2, h3 {
+	margin: 0;
+	text-rendering: optimizeLegibility;
+}
+h1 {
+	font-size: 2.4em;
+	line-height: 1.4em;
+	text-transform: lowercase;
+	font-weight: normal;
+	/*text-shadow: 2px 4px 0 rgba(0,0,0,0.4);*/
+}
+h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: normal;
+	/*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+}
+p, footer {
+	margin: 1em 0 .5em;
+	color: silver;
+}
+footer {
+	font-size: .8em;
+	margin-top: 3em;
+}
+
+
+
+@media only screen and (min-width: 500px) {
+	h1 {
+		font-size: 2.75em;
+		line-height: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+
+}	
