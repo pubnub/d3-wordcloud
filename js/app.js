@@ -20,7 +20,7 @@
 		d3.layout.cloud()
 			.size([width, height])
 			.words(wordCount)
-			.rotate(function() { return (Math.random()*2)>>>0 * 90;}) // 0 or 90deg
+			.rotate(function() { return ~~(Math.random()*2) * 90;}) // 0 or 90deg
 			.font(typeFace)
 			.fontSize(function(d) { return d.size * minFontSize; })
 			.on('end', drawCloud)
