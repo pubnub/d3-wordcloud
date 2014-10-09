@@ -46,7 +46,8 @@
 	var channel = 'chat';
 
 	var pubnub = PUBNUB.init({
-		subscribe_key: 'sub-c-f762fb78-2724-11e4-a4df-02ee2ddab7fe'
+		subscribe_key: 'sub-c-f762fb78-2724-11e4-a4df-02ee2ddab7fe',
+		publish_key:   'pub-c-156a6d5f-22bd-4a13-848d-b5b4d4b36695'
 	});
 
 	// fetching last 100 chat room messages
@@ -86,7 +87,7 @@
 		    wordCount[strings[i]]++; // {'hi': 12, 'foo': 2 ...}
 		}
 
-		console.log(wordCount);
+		//console.log(wordCount);
 
 		var wordCountArr = [];
 
@@ -98,5 +99,6 @@
 	}
 
 	getData();
+
 	
 })();
